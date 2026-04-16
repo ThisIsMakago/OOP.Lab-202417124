@@ -23,6 +23,9 @@ public class DigitalVideoDisc {
 	public float getCost() {
 		return cost;
 	}
+    public int getId() {
+        return id;
+    }
 	
 	public DigitalVideoDisc(String title) {
         super();
