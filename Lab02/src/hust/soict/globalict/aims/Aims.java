@@ -1,7 +1,7 @@
+package hust.soict.globalict.aims;
 import hust.soict.globalict.aims.cart.Cart;
 import hust.soict.globalict.aims.disc.DigitalVideoDisc;
 
-package hust.soict.globalict.aims;
 public class Aims {
     public static void main(String[] args) {
 
