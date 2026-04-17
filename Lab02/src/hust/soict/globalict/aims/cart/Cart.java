@@ -78,4 +78,14 @@ public class Cart {
             System.out.println("No match found for title: " + title);
         }
     }
+
+    public void sortByTitleCost() {
+        java.util.Collections.sort(itemsOrdered, Media.COMPARE_BY_TITLE_COST);
+        System.out.println("Sorted");
+    }
+
+    public void sortByCostTitle() {
+        java.util.Collections.sort(itemsOrdered, Media.COMPARE_BY_COST_TITLE);
+        System.out.println("Đã sắp xếp giỏ hàng theo Giá -> Tên.");
+    }
 }
